@@ -1,0 +1,5 @@
+project: libtins
+target: resolve-domain
+cmds:
+  - cmd: /fuzz_resolve_domain
+    libfuzzer: true
